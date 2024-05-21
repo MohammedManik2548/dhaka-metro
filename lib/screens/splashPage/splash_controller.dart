@@ -24,7 +24,7 @@ class SplashController extends GetxController{
     await Future.delayed(const Duration(seconds: 3));
     // splashScreenName.value='AIMS OF BANGLADESH LIMITED';
     // await Future.delayed(Duration(seconds: 1));
-    // Get.offAll(()=>HomePage());
+    Get.offAll(()=>HomePage());
   }
 
 

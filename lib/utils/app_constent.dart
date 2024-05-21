@@ -24,7 +24,7 @@ class AppConstant {
 
 
   static Color myMainColor() {
-    return Color(0xff107144);
+    return Color(0xff006A55);
   }
 
   static Color mySecondaryColor() {

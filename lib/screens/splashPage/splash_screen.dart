@@ -13,6 +13,8 @@ class SplashScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         // backgroundColor: const Color(0xffF3F8F5),
         body: Container(
+          height: MediaQuery.sizeOf(context).height,
+          width: MediaQuery.sizeOf(context).width,
           alignment: Alignment.center,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -26,9 +28,9 @@ class SplashScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.6,
-                  width: MediaQuery.of(context).size.width * 0.6,
-                  child: Image.asset('assets/images/splash2.png')),
+                  // height: MediaQuery.of(context).size.height * 0.6,
+                  // width: MediaQuery.of(context).size.width * 0.6,
+                  child: Image.asset('assets/images/dhaka_metro.png')),
               //   SizedBox(height: 50,),
               //  Obx(()=>Text(controller.splashScreenName.value, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 22, color: AppConstant.myMainColor() ),)),
             ],
