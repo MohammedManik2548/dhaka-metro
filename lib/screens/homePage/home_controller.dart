@@ -19,7 +19,7 @@ class HomeController extends GetxController{
 
 
   var screenHeader=[
-    'Home',
+    'ভাড়ার তালিকা',
     'Update Info',
     // 'Buy Units',
     // 'Surrender Units',
@@ -78,7 +78,7 @@ class HomeController extends GetxController{
 
   var screenDrawerIcon=[
 
-    Icon(FontAwesomeIcons.user,color: AppConstant.mySecondaryColor()),
+    Icon(FontAwesomeIcons.train,color: AppConstant.mySecondaryColor()),
     Icon(FontAwesomeIcons.retweet,color: AppConstant.mySecondaryColor()),
 
   ];

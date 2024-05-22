@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 Widget headerCenterAlign(String s, int i) {
 
 
-  var value=160.0;
+  var value=120.0;
   double width = 0.0;
 
   if(value*8<Get.size.width){
@@ -33,7 +33,7 @@ Widget headerCenterAlign(String s, int i) {
 Widget headerCenterAlignWhite(String s, int i) {
 
 
-  var value=160.0;
+  var value=120.0;
   double width = 0.0;
 
   if(value*8<Get.size.width){
@@ -49,12 +49,17 @@ Widget headerCenterAlignWhite(String s, int i) {
       constraints: const BoxConstraints(minHeight: 40),
       padding: const EdgeInsets.all(5),
 
-      color: Colors.white,
+      color: s=='০'?Colors.grey:Colors.white,
 
       child: Text(
         s,
         textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 13,color: Colors.white, overflow: TextOverflow.ellipsis),
+        style:  const TextStyle(
+            fontSize: 18,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+            overflow: TextOverflow.ellipsis,
+        ),
 
       ),
     );
